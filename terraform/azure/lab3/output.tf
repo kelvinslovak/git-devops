@@ -1,10 +1,10 @@
 output "vm_name" {
-  description = "Nome da máquina virtual"
+  description = "Nome da VM"
   value       = azurerm_linux_virtual_machine.vm.name
 }
 
 output "public_ip_address" {
-  description = "IP público da máquina virtual"
+  description = "IP público da VM"
   value       = azurerm_public_ip.public_ip.ip_address
 }
 
