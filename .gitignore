@@ -1,0 +1,20 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+
+# Chaves privadas e credenciais
+*.pem
+*.key
+.env
+.env.*
+
+# Arquivos temporários
+*.log
+.DS_Store
